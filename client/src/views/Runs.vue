@@ -86,7 +86,7 @@
 
       requestData(){
         this.loaded = false
-        axios.get('/')
+        axios.get('')
         .then(response => {
          
           this.datacollection = response.data.slice(0,100).map( a => a.y_label )
@@ -94,21 +94,13 @@
         })
         .finally( ()=> this.loaded = true )
 
-        this.loaded2 = false
-        axios.get('/year')
-        .then(response => {
-         
-          this.datacollection2 = response.data.slice(0,19).map( a => a.y_label )
-          this.options2 = response.data.slice(0,19).map( a => a.x_label )
-        })
-        .finally( ()=> this.loaded2 = true )
       },
 
       fireQuery(prop){
         if( prop == 'All Time' ){
             this.loaded = false
         
-            axios.get('/')
+            axios.get('')
             .then(response => {
     
               this.datacollection = response.data.slice(0,50).map( a => a.y_label )
