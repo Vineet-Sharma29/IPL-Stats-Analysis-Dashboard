@@ -85,7 +85,7 @@
     methods: {
       requestData(){
         this.loaded = false
-        axios.get('http://localhost:3000/successful-teams')
+        axios.get('/successful-teams')
         .then(response => {
          
           this.datacollection = response.data.map( a => a.y_label )
@@ -100,7 +100,7 @@
         if( prop == 'All Time' ){
             this.loaded = false
         
-            axios.get('http://localhost:3000/successful-teams')
+            axios.get('/successful-teams')
             .then(response => {
           
               this.datacollection = response.data.map( a => a.y_label )
@@ -114,7 +114,7 @@
         else{
             this.loaded = false
                     
-            axios.post('http://localhost:3000/successful-teams/year', {year:prop})
+            axios.post('/successful-teams/year', {year:prop})
             .then(response => {
               this.datacollection = response.data.map( a => a.y_label )
               this.options = response.data.map( a => a.x_label )
