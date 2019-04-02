@@ -15,8 +15,6 @@
                 <v-layout row wrap class="mb-5">
                     <v-btn flat outline color="info" @click="loadGraph('bar')">Bar Graph</v-btn>
                     <v-btn flat outline color="info" @click="loadGraph('area')">Area Graph</v-btn>
-                    <v-btn flat outline color="info">ASC Order</v-btn>
-                    <v-btn flat outline color="info">DSC Order</v-btn>
                 </v-layout>
             </v-layout>
             <line-chart v-if="loadedLabel" :chart-data="values" :chart-labels="labels"></line-chart>
