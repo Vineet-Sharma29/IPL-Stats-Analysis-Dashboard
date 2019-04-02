@@ -86,7 +86,7 @@
     methods: {
       requestData(){
         this.loaded = false
-        axios.get('http://localhost:3000/six')
+        axios.get('/six')
         .then(response => {
          
           this.datacollection = response.data.slice(0,100).map( a => a.y_label )
@@ -101,7 +101,7 @@
         if( prop == 'All Time' ){
             this.loaded = false
         
-            axios.get('http://localhost:3000/six')
+            axios.get('/six')
             .then(response => {
 
               this.datacollection = response.data.slice(0,50).map( a => a.y_label )
@@ -115,7 +115,7 @@
         else{
             this.loaded = false
                     
-            axios.post('http://localhost:3000/six/year', {year:prop})
+            axios.post('/six/year', {year:prop})
             .then(response => {
               this.datacollection = response.data.slice(0,100).map( a => a.y_label )
               this.options = response.data.slice(0,100).map( a => a.x_label )
