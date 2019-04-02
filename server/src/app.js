@@ -51,6 +51,15 @@ app.get('/extras',db.getExtra)
 
 app.post('/extras/year',db.getExtraYear)
 
+//Handle production
+
+if(process.env.NODE_ENV === 'production' ){
+    app.use(express.static(__dirname+'/public/'))
+
+    //Handle SPA
+    app.get(/.*/, (request, response) => response.sendFile(__dirname+'/public/index.html') );
+}
+
 app.listen(port, () => {
     console.log(`App running on port ${port}.`)
 })
