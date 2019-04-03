@@ -1,5 +1,11 @@
 # ipl
 
+## master
+Contains code for production
+
+## dev
+Client folder container code in VueJs
+
 ## Project setup
 ```
 npm install
