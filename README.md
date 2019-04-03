@@ -4,8 +4,8 @@
 Contains code for production
 
 ## dev
-Client folder contains code in frontend in VueJs <br />
-Server folder contains code in backend in NodeJS
+Client folder contains code for frontend in VueJs <br />
+Server folder contains code for backend in NodeJS
 
 ## Project setup
 ```
