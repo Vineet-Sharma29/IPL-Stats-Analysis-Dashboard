@@ -9,6 +9,7 @@ This project analyses IPL data from 2008 to 2016, and gives graphical display of
 * Axios
 * Vue-router
 * Vuex
+* PostgreSQL
 
 ## Directory Structure
 
