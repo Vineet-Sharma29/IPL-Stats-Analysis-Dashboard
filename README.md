@@ -1,9 +1,21 @@
 # ipl
 
-## master
+This project analyses IPL data from 2008 to 2016, and gives graphical display of various statistics. It uses following frameworks and  libraries :- 
+
+* VueJS
+* NodeJS
+* Vuetify
+* Vue-Chartjs
+* Axios
+* Vue-router
+* Vuex
+
+## Directory Structure
+
+### master
 Contains code for production
 
-## dev
+### dev
 Client folder contains code for frontend in VueJs <br />
 Server folder contains code for backend in NodeJS
 
