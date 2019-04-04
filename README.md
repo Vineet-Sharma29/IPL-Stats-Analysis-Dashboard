@@ -1,4 +1,4 @@
-# ipl
+# IPL
 
 This project analyses IPL data from 2008 to 2016, and gives graphical display of the data. It uses following frameworks and  libraries :- 
 
