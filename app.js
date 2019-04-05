@@ -3,11 +3,11 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const morgan = require('morgan')
 const db = require('./queries')
-const port = 3000
+const port = process.env.PORT || 3000
 
 const app = express()
 app.use(morgan('combined'))
-app.use(bodyParser.json())
+app.use(bodyParser.json()) 
 app.use(
     bodyParser.urlencoded({
         extended: true,
@@ -15,7 +15,7 @@ app.use(
 )
 app.use(cors())
 
-app.get('/', db.getPlayers)
+app.get('/runs', db.getPlayers)
 
 app.post('/year', db.getByYear)
 
