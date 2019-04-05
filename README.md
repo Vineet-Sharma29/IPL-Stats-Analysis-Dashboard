@@ -11,12 +11,12 @@ This project analyses IPL data from 2008 to 2016, and gives graphical display of
 * Vuex
 * PostgreSQL
 
-## Directory Structure
+## Repo Structure
 
-### master
+### master branch
 * Contains code for production
 
-### dev
+### dev branch
 * Client folder contains code for frontend in VueJs <br />
 * Server folder contains code for backend in NodeJS
 
