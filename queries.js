@@ -5,6 +5,11 @@ const pool = new Pool({
   database: 'defaultdb',
   password: 'lde92p7twt923tnq',
   port: 25060,
+  // user: 'postgres',
+  // host: 'localhost',
+  // database: 'ipl',
+  // password: '1234',
+  // port: 5432,
 })
 
 const exp = `
