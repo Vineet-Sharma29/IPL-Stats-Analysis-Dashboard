@@ -1,10 +1,10 @@
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'ipl',
-  password: '1234',
-  port: 5432,
+  user: 'doadmin',
+  host: 'db-postgresql-blr1-80592-do-user-5044431-0.db.ondigitalocean.com',
+  database: 'defaultdb',
+  password: 'lde92p7twt923tnq',
+  port: 25060,
 })
 
 const exp = `
