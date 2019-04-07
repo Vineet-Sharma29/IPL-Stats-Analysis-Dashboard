@@ -15,35 +15,21 @@ This project analyses IPL data from 2008 to 2016, and gives graphical display of
 
 ### master branch
 * Contains code for production
+* Data folder contains files used to get the data
+* ```db.sql``` is dump file of the database which can be used to migrate the database in a new local system
 
 ### dev branch
 * Client folder contains code for frontend in VueJs <br />
 * Server folder contains code for backend in NodeJS
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## How to run code?
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Master Branch
 
-### Run your tests
-```
-npm run test
-```
+* cd into root( which contains package.json file ) directory and run ```npm start```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Dev Branch
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* cd into client directory and run ```npm run serve```
+* cd into server directory and run ```npm start```
