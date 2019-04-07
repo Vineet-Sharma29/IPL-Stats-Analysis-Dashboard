@@ -27,9 +27,9 @@ This project analyses IPL data from 2008 to 2016, and gives graphical display of
 
 ### Master Branch
 
-* cd into root( which contains package.json file ) directory and run ```npm start```
+* cd into root( which contains package.json file ) directory and run ```npm i```, followed by ```npm start```
 
 ### Dev Branch
 
-* cd into client directory and run ```npm run serve```
-* cd into server directory and run ```npm start```
+* cd into client directory and run ```npm i```, followed by ```npm run serve```
+* cd into server directory and run ```npm i```, followed by ```npm start```
