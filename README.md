@@ -1,29 +1,35 @@
-# ipl
+# IPL
 
-## Project setup
-```
-npm install
-```
+This project analyses IPL data from 2008 to 2016, and gives graphical display of the data. It uses following frameworks and  libraries :- 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* VueJS
+* NodeJS
+* Vuetify
+* Vue-Chartjs
+* Axios
+* Vue-router
+* Vuex
+* PostgreSQL
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Repo Structure
 
-### Run your tests
-```
-npm run test
-```
+### master branch
+* Contains code for production
+* Data folder contains files used to get the data
+* ```db.sql``` is dump file of the database which can be used to migrate the database in a new local system
 
-### Lints and fixes files
-```
-npm run lint
-```
+### dev branch
+* Client folder contains code for frontend in VueJs <br />
+* Server folder contains code for backend in NodeJS
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## How to run code?
+
+### Master Branch
+
+* cd into root( which contains package.json file ) directory and run ```npm i```, followed by ```npm start```
+
+### Dev Branch
+
+* cd into client directory and run ```npm i```, followed by ```npm run serve```
+* cd into server directory and run ```npm i```, followed by ```npm start```
