@@ -1,4 +1,4 @@
-# IPL
+# IPL Stats Analysis
 
 This project analyses IPL data from 2008 to 2016, and gives graphical display of the data. It uses following frameworks and  libraries :- 
 
@@ -33,3 +33,4 @@ This project analyses IPL data from 2008 to 2016, and gives graphical display of
 
 * cd into client directory and run ```npm i```, followed by ```npm run serve```
 * cd into server directory and run ```npm i```, followed by ```npm start```
+
