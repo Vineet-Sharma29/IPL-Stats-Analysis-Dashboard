@@ -2,14 +2,14 @@
 
 This project analyses IPL data from 2008 to 2016, and gives graphical display of the data. It uses following frameworks and  libraries :- 
 
-* VueJS
-* NodeJS
-* Vuetify
-* Vue-Chartjs
-* Axios
-* Vue-router
-* Vuex
-* PostgreSQL
+* VueJS - to make frontend
+* NodeJS - to make backend
+* Vuetify - UI plugin used with VueJS
+* Vue-Chartjs - used to plot charts
+* Axios - to make requests over http
+* Vue-router - vue add-on used for routing various views
+* Vuex - used to manage state of the app
+* PostgreSQL - to handle database
 
 ## Repo Structure
 
